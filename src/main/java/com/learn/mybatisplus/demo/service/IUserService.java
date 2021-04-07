@@ -1,0 +1,17 @@
+package com.learn.mybatisplus.demo.service;
+
+
+import com.baomidou.mybatisplus.extension.service.IService;
+import com.learn.mybatisplus.demo.entity.User;
+
+/**
+ * <p>
+ *  服务类
+ * </p>
+ *
+ * @author jobob
+ * @since 2021-03-15
+ */
+public interface IUserService extends IService<User> {
+
+}
